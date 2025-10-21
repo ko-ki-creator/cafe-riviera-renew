@@ -1,13 +1,9 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --white: #ffffff;
+  --black: #333333;
+  --mainColor: #243C47;
+  --shippori: "Shippori Mincho B1";
+  --vollkorn: "Vollkorn";
 }
 
 html,
@@ -17,9 +13,9 @@ body {
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--black);
+  background: var(--white);
+  font-family: "Shippori Mincho B1", Vollkorn, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -35,8 +31,10 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+li {
+  list-style: none;
+}
+
+h1 {
+  font-family: var(--shippori);
 }
