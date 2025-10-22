@@ -1,3 +1,5 @@
+import Footer from "@/components/Footer/Footer";
+import Header from "@/components/Header/Header";
 import "@/styles/globals.css";
 import Head from "next/head";
 import Link from "next/link";
@@ -13,9 +15,12 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="/favicon.svg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <Link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet" />
       </Head>
+
+      <Header />
       <Component {...pageProps} />
+      <Footer />
     </>
   )
 }
