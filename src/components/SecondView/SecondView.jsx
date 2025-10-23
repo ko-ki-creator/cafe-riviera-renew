@@ -28,42 +28,42 @@ export default function SecondView() {
                             <Image
                                 className={styles.album_item}
                                 src="/images/fv_second/img1.jpeg"
-                                alt=''
+                                alt='店内の写真'
                                 width={165}
                                 height={200}
                             />
                             <Image
                                 className={styles.album_item}
                                 src="/images/fv_second/img2.jpeg"
-                                alt=''
+                                alt='コーヒーを淹れてる写真'
                                 width={165}
                                 height={200}
                             />
                             <Image
                                 className={styles.album_item}
                                 src="/images/fv_second/img3.jpeg"
-                                alt=''
+                                alt='店内装飾のドライフラワー'
                                 width={165}
                                 height={200}
                             />
                             <Image
                                 className={styles.album_item}
                                 src="/images/fv_second/img4.jpeg"
-                                alt=''
+                                alt='窓際のテーブル席'
                                 width={165}
                                 height={200}
                             />
                             <Image
                                 className={styles.album_item}
                                 src="/images/fv_second/img5.jpeg"
-                                alt=''
+                                alt='温かみのあるライト'
                                 width={165}
                                 height={200}
                             />
                             <Image
                                 className={styles.album_item}
                                 src="/images/fv_second/img6.jpeg"
-                                alt=''
+                                alt='カフェオレ'
                                 width={165}
                                 height={200}
                             />

@@ -1,6 +1,6 @@
 .second_view {
     width: 100%;
-    height: 1060px;
+    height: 1120px;
     position: relative;
 }
 
@@ -33,7 +33,6 @@
         color: var(--white);
         text-align: center;
         font-weight: bold;
-        line-height: 1.5rem;
     }
 }
 

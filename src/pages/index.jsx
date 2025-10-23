@@ -2,6 +2,7 @@ import styles from "@/styles/Home.module.css";
 import FirstView from "@/components/FirstView/FirstView";
 import Mobile from "@/components/Mobile/Mobile";
 import SecondView from "@/components/SecondView/SecondView";
+import About from "@/components/About/About";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
             <Mobile>
               <FirstView />
               <SecondView />
+              <About />
             </Mobile>
           </div>
         </div>

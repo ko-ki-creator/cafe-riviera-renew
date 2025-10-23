@@ -1,0 +1,22 @@
+.about {
+    position: relative;
+    padding: 0 15px;
+}
+
+.content {
+    p {
+        margin-bottom: 20px;
+    }
+}
+
+.video_slide {
+    display: flex;
+    gap: 10px;
+}
+
+.slide_movie {
+    width: 165px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
