@@ -1,0 +1,20 @@
+.menu {
+    padding: 0 15px;
+}
+
+.menu_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 10px;
+}
+
+.menu_img {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.menu_name {
+    letter-spacing: -0.1rem;
+    text-align: center;
+    line-height: 1.2rem;
+}

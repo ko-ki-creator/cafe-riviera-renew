@@ -4,6 +4,7 @@ import Mobile from "@/components/Mobile/Mobile";
 import SecondView from "@/components/SecondView/SecondView";
 import About from "@/components/About/About";
 import Feature from "@/components/Feature/Feature";
+import Menu from "@/components/Menu/Menu";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
               <SecondView />
               <About />
               <Feature />
+              <Menu />
             </Mobile>
           </div>
         </div>
