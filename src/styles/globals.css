@@ -46,11 +46,7 @@ h1 {
   font-family: var(--vollkorn);
   font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: 50px;
-}
-
-section {
-  margin-bottom: 50px;
+  margin: 50px auto;
 }
 
 p {

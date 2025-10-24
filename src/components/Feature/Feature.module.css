@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feature_ttl {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.gallery {
+    position: relative;
+}
+
+.gallery_item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallery_group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.item {
+    border-radius: 10px;
+    object-fit: cover;
+}

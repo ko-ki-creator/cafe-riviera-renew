@@ -3,6 +3,7 @@ import FirstView from "@/components/FirstView/FirstView";
 import Mobile from "@/components/Mobile/Mobile";
 import SecondView from "@/components/SecondView/SecondView";
 import About from "@/components/About/About";
+import Feature from "@/components/Feature/Feature";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
               <FirstView />
               <SecondView />
               <About />
+              <Feature />
             </Mobile>
           </div>
         </div>
