@@ -5,6 +5,7 @@ import SecondView from "@/components/SecondView/SecondView";
 import About from "@/components/About/About";
 import Feature from "@/components/Feature/Feature";
 import Menu from "@/components/Menu/Menu";
+import News from "@/components/News/News";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
               <About />
               <Feature />
               <Menu />
+              <News />
             </Mobile>
           </div>
         </div>
