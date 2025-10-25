@@ -8,6 +8,7 @@ import Menu from "@/components/Menu/Menu";
 import News from "@/components/News/News";
 import Access from "@/components/Access/Access";
 import Infomation from "@/components/Infomation/Infomation";
+import Reserve from "@/components/Reserve/Reserve";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
               <News />
               <Access />
               <Infomation />
+              <Reserve />
             </Mobile>
           </div>
         </div>

@@ -1,0 +1,73 @@
+.reserve {
+    position: relative;
+    width: 100%;
+    height: 588px;
+}
+
+.reserve_back {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: static;
+    z-index: -1;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.ttl {
+    color: var(--white);
+    font-family: var(--vollkorn);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.text {
+    color: var(--white);
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+    padding: 0 15px;
+}
+
+.reserve_btn,
+.contact_btn {
+    width: 100%;
+    height: 56px;
+    display: grid;
+    place-content: center;
+    transition: all .2s ease-in-out;
+    font-weight: bold;
+}
+
+.reserve_btn {
+    color: var(--white);
+    background-color: var(--mainColor);
+
+    &:hover {
+        color: var(--mainColor);
+        background-color: var(--white);
+    }
+}
+
+.contact_btn {
+    color: var(--mainColor);
+    background-color: var(--white);
+
+    &:hover {
+        color: var(--white);
+        background-color: var(--mainColor);
+    }
+}
