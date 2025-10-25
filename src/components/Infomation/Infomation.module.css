@@ -1,0 +1,19 @@
+.infomation {
+    padding: 0 15px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--white);
+    padding: 20px 15px;
+}
+
+.group p {
+    line-height: 1.5rem;
+}
+
+.bold {
+    font-weight: bold;
+}
