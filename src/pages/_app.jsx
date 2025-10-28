@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="/favicon.svg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Ysabeau&Shippori+Mincho&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet" />
       </Head>
 
       <Header />

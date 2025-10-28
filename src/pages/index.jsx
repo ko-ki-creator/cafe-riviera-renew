@@ -9,6 +9,7 @@ import News from "@/components/News/News";
 import Access from "@/components/Access/Access";
 import Infomation from "@/components/Infomation/Infomation";
 import Reserve from "@/components/Reserve/Reserve";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
               <Access />
               <Infomation />
               <Reserve />
+              <Footer />
             </Mobile>
           </div>
         </div>
