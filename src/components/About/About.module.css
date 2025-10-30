@@ -3,10 +3,12 @@
     padding: 0 15px;
 }
 
-.content {
-    p {
-        margin-bottom: 20px;
-    }
+.container {
+    margin-bottom: 100px;
+}
+
+.content p {
+    margin-bottom: 20px;
 }
 
 .video_slide {

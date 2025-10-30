@@ -1,0 +1,16 @@
+.heading {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 50px;
+}
+
+.en {
+    font-size: 2rem;
+
+}
+
+.ja {
+    font-size: 1rem;
+    line-height: 1em;
+}

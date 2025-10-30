@@ -1,7 +1,6 @@
 import Header from "@/components/Header/Header";
 import "@/styles/globals.css";
 import Head from "next/head";
-import Link from "next/link";
 
 export default function App({ Component, pageProps }) {
   return (

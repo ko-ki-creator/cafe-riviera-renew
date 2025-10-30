@@ -10,27 +10,24 @@ import Access from "@/components/Access/Access";
 import Infomation from "@/components/Infomation/Infomation";
 import Reserve from "@/components/Reserve/Reserve";
 import Footer from "@/components/Footer/Footer";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <>
-      <main className={styles.main}>
-        <div className={styles.wrapper}>
-          <div className={styles.inner}>
-            <Mobile>
-              <FirstView />
-              <SecondView />
-              <About />
-              <Feature />
-              <Menu />
-              <News />
-              <Access />
-              <Infomation />
-              <Reserve />
-              <Footer />
-            </Mobile>
-          </div>
-        </div>
+      <main>
+        <Mobile>
+          <FirstView />
+          <SecondView />
+          <About />
+          <Feature />
+          <Menu />
+          <News />
+          <Access />
+          <Infomation />
+          <Reserve />
+          <Footer />
+        </Mobile>
       </main>
     </>
   )

@@ -1,28 +1,7 @@
 .news {
+    margin-bottom: 100px;
     padding: 0 15px;
 }
-
-.content {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.date_category {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    font-family: var(--vollkorn);
-    letter-spacing: -0.02rem;
-}
-
-.text {
-    line-height: 1.5rem;
-    letter-spacing: -0.02rem;
-    border-bottom: 1px solid var(--black);
-    padding-bottom: 10px;
-}
-
 
 .btn {
     display: block;

@@ -41,16 +41,16 @@ export default function Header() {
                         <nav className={styles.nav}>
                             <ul className={styles.nav_list}>
                                 <li className={styles.nav_item}>
-                                    <Link className={styles.item_btn} href="#">Home</Link>
+                                    <Link className={styles.item_btn} href="/">Home</Link>
                                 </li>
                                 <li className={styles.nav_item}>
-                                    <Link className={styles.item_btn} href="">Menu</Link>
+                                    <Link className={styles.item_btn} href="#menu">Menu</Link>
                                 </li>
                                 <li className={styles.nav_item}>
-                                    <Link className={styles.item_btn} href="">News</Link>
+                                    <Link className={styles.item_btn} href="/news">News</Link>
                                 </li>
                                 <li className={styles.nav_item}>
-                                    <Link className={styles.item_btn} href="">Access</Link>
+                                    <Link className={styles.item_btn} href="#access">Access</Link>
                                 </li>
                             </ul>
                             <Link className={styles.reserve_btn} href="">Reserve</Link>
