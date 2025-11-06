@@ -26,16 +26,15 @@
     left: 50%;
     transform: translateX(-50%);
     color: var(--white);
-    font-family: var(--shippori);
     font-weight: 800;
     letter-spacing: 0.02rem;
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    /* gap: 10px; */
     text-shadow: var(--textShadow);
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.5rem; /*24px*/
     }
 }

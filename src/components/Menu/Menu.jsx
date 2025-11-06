@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function Menu() {
     return (
         <>
-            <section className={styles.menu} id='#menu'>
+            <section className={styles.menu} id='menu'>
                 <h2 className="ttl">Menu</h2>
                 <p>
                     カフェ・リヴィエラのメニューは、季節ごとに変わるこだわりの料理とドリンクを取り揃えています。

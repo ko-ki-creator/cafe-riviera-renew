@@ -2,15 +2,15 @@ import React from 'react'
 import styles from './NewsCard.module.css';
 import Link from 'next/link';
 
-export default function NewsCard() {
+export default function NewsCard({url, date, category, title}) {
     return (
         <>
-            <Link href="{}" className={styles.content}>
+            <Link href="" className={styles.content}>
                 <div className={styles.date_category}>
-                    <p className={styles.date}>2025/10/8</p>
-                    <p className={styles.category}>New Topics</p>
+                    <p className={styles.date}>{date}</p>
+                    <p className={styles.category}>{category}</p>
                 </div>
-                <p className={styles.text}>リヴィエラ特製抹茶ラテが登場しました！クリーミーでリッチな味わいをぜひお試しください</p>
+                <p className={styles.text}>{title}</p>
             </Link>
         </>
     )

@@ -4,7 +4,7 @@ import styles from "./Access.module.css";
 export default function Access() {
     return (
         <>
-            <section className={styles.access}>
+            <section className={styles.access} id='access'>
                 <h2 className='ttl'>Access</h2>
                 <div className={styles.content}>
                     <p className={styles.text}>カフェ・リヴィエラは、東京都新宿区に位置し、アクセスも便利です。最寄り駅から徒歩5分、専用駐車場もご用意していますので、お車でのご来店も可能です。</p>

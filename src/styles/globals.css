@@ -3,7 +3,7 @@
   --black: #333333;
   --mainColor: #243C47;
   --backColor: #FFF8EF;
-  --shippori: "Shippori Mincho";
+  --shippori: "Shippori Mincho B1";
   --vollkorn: "Vollkorn";
   --ysabeau: "Ysabeau";
   --textShadow: 1px 1px 4px rgba(36, 60, 71, 0.25);
@@ -18,7 +18,7 @@ body {
 body {
   color: var(--black);
   background: var(--white);
-  font-family: "Shippori Mincho", "Vollkorn", serif;
+  font-family: "Shippori Mincho B1", "Vollkorn", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
