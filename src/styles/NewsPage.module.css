@@ -7,3 +7,28 @@
     flex-direction: column;
     gap: 24px;
 }
+
+.date_category {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: var(--vollkorn);
+    letter-spacing: -0.02rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--black);
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        opacity: 0.6;
+    }
+}
+
+.text {
+    line-height: 1.5rem;
+}

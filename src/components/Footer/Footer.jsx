@@ -17,16 +17,16 @@ export default function Footer() {
                     <nav className={styles.footer_nav}>
                         <ul className={styles.f_nav_list}>
                             <li className={styles.f_nav_item}>
-                                <Link className={styles.item_btn} href="#">Home</Link>
+                                <Link className={styles.item_btn} href="/">Home</Link>
                             </li>
                             <li className={styles.f_nav_item}>
-                                <Link className={styles.item_btn} href="">Menu</Link>
+                                <Link className={styles.item_btn} href="/#menu">Menu</Link>
                             </li>
                             <li className={styles.f_nav_item}>
-                                <Link className={styles.item_btn} href="">News</Link>
+                                <Link className={styles.item_btn} href="/news">News</Link>
                             </li>
                             <li className={styles.f_nav_item}>
-                                <Link className={styles.item_btn} href="">Access</Link>
+                                <Link className={styles.item_btn} href="/#access">Access</Link>
                             </li>
                         </ul>
                         <Link className={styles.insta} href="https://www.instagram.com/">

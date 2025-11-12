@@ -21,8 +21,8 @@ export default function Reserve() {
                         をしてご来場ください。
                     </p>
                     <div className={styles.btn}>
-                        <Link className={styles.reserve_btn} href="">Reserve</Link>
-                        <Link className={styles.contact_btn} href="">Contact</Link>
+                        <Link className={styles.reserve_btn} href="/reserve">Reserve</Link>
+                        <Link className={styles.contact_btn} href="/contact">Contact</Link>
                     </div>
                 </div>
             </section>

@@ -2,7 +2,7 @@ import React from 'react'
 import styles from "./ArticleCard.module.css"
 import Image from 'next/image'
 
-export default function ArticleCard({ date, category, title, text }) {
+export default function ArticleCard({ date, category, title, text, images }) {
     return (
         <>
             <section className={styles.article}>
@@ -15,7 +15,8 @@ export default function ArticleCard({ date, category, title, text }) {
                         <h2 className={styles.title}>{title}</h2>
                         <Image
                             className={styles.detail_img}
-                            src="/images/news/Matcha_latte.jpeg"
+                            // src="/images/news/Matcha_latte.jpeg"
+                            src={images}
                             alt="リヴィエラ特定抹茶ラテ"
                             width={315}
                             height={180}

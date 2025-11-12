@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function NewsCard({url, date, category, title}) {
     return (
         <>
-            <Link href="" className={styles.content}>
+            <Link href="/" className={styles.content}>
                 <div className={styles.date_category}>
                     <p className={styles.date}>{date}</p>
                     <p className={styles.category}>{category}</p>
