@@ -54,7 +54,7 @@ export default function HamMenu() {
                         <p className={styles.tel}>Tel:03-1234-5678</p>
                         <Link className={styles.insta} href="https://www.instagram.com/">
                             <Image
-                                src="/images/instagram_ham.svg"
+                                src="/images/Instagram_ham.svg"
                                 alt='インスタグラム'
                                 width={40}
                                 height={40}
