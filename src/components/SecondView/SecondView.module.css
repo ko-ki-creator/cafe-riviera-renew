@@ -10,7 +10,7 @@
     width: 100%;
     height: auto;
     object-fit: cover;
-    filter: blur(8px);
+    /* filter: blur(8px); */
     position: relative;
     z-index: 10;
 }
