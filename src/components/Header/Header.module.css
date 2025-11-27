@@ -153,7 +153,7 @@ TB 1080~768px
 SP 767px~375px
 ------------------ */
 @media screen and (max-width: 767px) {
-    .wrapper {
+    .container {
         display: none;
     }
 }

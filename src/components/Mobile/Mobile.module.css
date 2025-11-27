@@ -11,3 +11,18 @@
     border: 5px solid var(--white);
     border-radius: 5px;
 }
+
+
+
+/* ------------------
+SP 767px~375px
+------------------ */
+@media screen and (max-width: 767px) {
+    .mobile_container {
+        top: 0;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-right: 0;
+    }
+}

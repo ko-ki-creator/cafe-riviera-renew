@@ -1,8 +1,44 @@
 import Header from "@/components/Header/Header";
 import "@/styles/globals.css";
 import Head from "next/head";
+import { useEffect } from "react";
 
 export default function App({ Component, pageProps }) {
+  useEffect(() => {
+    // クライアントサイドでのみ実行
+    if (typeof window === 'undefined') return;
+
+    // anim_box fadeupクラスを持つ要素を取得
+    const trigger = document.querySelectorAll('.anim_box.fadeup');
+
+    if (trigger.length === 0) return;
+
+    // スクロールイベントハンドラー
+    const handleScroll = () => {
+      for (let i = 0; i < trigger.length; i++) {
+        const position = trigger[i].getBoundingClientRect().top;
+        const scroll = window.pageYOffset || document.documentElement.scrollTop;
+        const offset = position + scroll;
+        const windowHeight = window.innerHeight;
+
+        if (scroll > offset - windowHeight + 200) {
+          trigger[i].classList.add('is_animated');
+        }
+      }
+    };
+
+    // 初回チェック（既に画面内にある要素を検出）
+    handleScroll();
+
+    // スクロールイベントリスナーを追加
+    window.addEventListener('scroll', handleScroll);
+
+    // クリーンアップ関数
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [Component]);
+
   return (
     <>
       {/* メタタグ・タイトル・ファビコン */}

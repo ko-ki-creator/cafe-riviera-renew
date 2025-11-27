@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from "./SecondView.module.css";
 import Image from 'next/image';
 
@@ -26,42 +25,42 @@ export default function SecondView() {
                     </p>
                     <div className={styles.album}>
                         <Image
-                            className={styles.album_item}
+                            className={`${styles.album_item} anim_box fadeup`}
                             src="/images/fv_second/img1.jpeg"
                             alt='店内の写真'
                             width={165}
                             height={200}
                         />
                         <Image
-                            className={styles.album_item}
+                            className={`${styles.album_item} anim_box fadeup`}
                             src="/images/fv_second/img2.jpeg"
                             alt='コーヒーを淹れてる写真'
                             width={165}
                             height={200}
                         />
                         <Image
-                            className={styles.album_item}
+                            className={`${styles.album_item} anim_box fadeup`}
                             src="/images/fv_second/img3.jpeg"
                             alt='店内装飾のドライフラワー'
                             width={165}
                             height={200}
                         />
                         <Image
-                            className={styles.album_item}
+                            className={`${styles.album_item} anim_box fadeup`}
                             src="/images/fv_second/img4.jpeg"
                             alt='窓際のテーブル席'
                             width={165}
                             height={200}
                         />
                         <Image
-                            className={styles.album_item}
+                            className={`${styles.album_item} anim_box fadeup`}
                             src="/images/fv_second/img5.jpeg"
                             alt='温かみのあるライト'
                             width={165}
                             height={200}
                         />
                         <Image
-                            className={styles.album_item}
+                            className={`${styles.album_item} anim_box fadeup`}
                             src="/images/fv_second/img6.jpeg"
                             alt='カフェオレ'
                             width={165}

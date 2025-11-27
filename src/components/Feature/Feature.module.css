@@ -18,15 +18,16 @@
     font-weight: 400;
 }
 
-.gallery {
+/* .gallery {
     position: relative;
-}
+} */
 
 .gallery_item {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 99;
 }
 
 .gallery_group {
@@ -38,4 +39,36 @@
 .item {
     border-radius: 10px;
     object-fit: cover;
+}
+
+/* スライドアニメーション */
+.gallery_slide {
+    width: 366px;
+    overflow: hidden;
+    position: relative;
+    left: -15px;
+}
+
+.gallery_slide_wrapper {
+    display: flex;
+    gap: 10px;
+    animation: slide 30s linear infinite;
+    width: fit-content;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-280px * 3 - 10px * 2));
+    }
+}
+
+.slide_gallery {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
 }

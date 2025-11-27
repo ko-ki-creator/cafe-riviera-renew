@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function Reserve() {
     return (
         <>
-            <section className={styles.reserve}>
+            <section className={styles.reserve} id='reserve'>
                 <Image
                     className={styles.reserve_back}
                     src="/images/reserve.jpg"

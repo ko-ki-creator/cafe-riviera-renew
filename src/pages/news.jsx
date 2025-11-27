@@ -24,7 +24,7 @@ export default function NewsPage() {
                             title="News"
                             sub_ttl="お知らせ"
                         />
-                        <div className={styles.container}>
+                        <div className={`${styles.container} anim_box fadeup`}>
                             <Link href="/posts/article_one" className={styles.content}>
                                 <div className={styles.date_category}>
                                     <p className={styles.date}>2025/10/8</p>

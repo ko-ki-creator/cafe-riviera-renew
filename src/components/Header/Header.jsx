@@ -47,13 +47,13 @@ export default function Header() {
                                     <Link className={styles.item_btn} href="/#menu">Menu</Link>
                                 </li>
                                 <li className={styles.nav_item}>
-                                    <Link className={styles.item_btn} href="/news">News</Link>
+                                    <Link className={styles.item_btn} href="/#news">News</Link>
                                 </li>
                                 <li className={styles.nav_item}>
                                     <Link className={styles.item_btn} href="/#access">Access</Link>
                                 </li>
                             </ul>
-                            <Link className={styles.reserve_btn} href="">Reserve</Link>
+                            <Link className={styles.reserve_btn} href="/#reserve">Reserve</Link>
                         </nav>
                     </div>
                 </div>

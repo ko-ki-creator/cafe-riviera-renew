@@ -17,7 +17,7 @@ export default function Menu() {
                     <h3 className="ttl">- Drink Menu -</h3>
 
                     <div className={styles.menu_list}>
-                        <div className={styles.menu_item}>
+                        <div className={`${styles.menu_item} anim_box fadeup`}>
                             <Image
                                 className={styles.menu_img}
                                 src="/images/menu/drink1.png"
@@ -28,7 +28,7 @@ export default function Menu() {
                             <p className={styles.menu_name}>リヴィエラスムージー</p>
                         </div>
 
-                        <div className={styles.menu_item}>
+                        <div className={`${styles.menu_item} anim_box fadeup`}>
                             <Image
                                 className={styles.menu_img}
                                 src="/images/menu/drink2.png"
@@ -39,7 +39,7 @@ export default function Menu() {
                             <p className={styles.menu_name}>自家製レモネード</p>
                         </div>
 
-                        <div className={styles.menu_item}>
+                        <div className={`${styles.menu_item} anim_box fadeup`}>
                             <Image
                                 className={styles.menu_img}
                                 src="/images/menu/drink3.png"
@@ -50,7 +50,7 @@ export default function Menu() {
                             <p className={styles.menu_name}>オーガニック<br />ティーセレクション</p>
                         </div>
 
-                        <div className={styles.menu_item}>
+                        <div className={`${styles.menu_item} anim_box fadeup`}>
                             <Image
                                 className={styles.menu_img}
                                 src="/images/menu/drink4.png"
@@ -61,7 +61,7 @@ export default function Menu() {
                             <p className={styles.menu_name}>ハンドドリップコーヒー</p>
                         </div>
 
-                        <div className={styles.menu_item}>
+                        <div className={`${styles.menu_item} anim_box fadeup`}>
                             <Image
                                 className={styles.menu_img}
                                 src="/images/menu/drink5.png"
@@ -78,7 +78,7 @@ export default function Menu() {
                     <h3 className="ttl">- Food Menu -</h3>
 
                     <div className={styles.menu_list}>
-                        <div className={styles.menu_item}>
+                        <div className={`${styles.menu_item} anim_box fadeup`}>
                             <Image
                                 className={styles.menu_img}
                                 src="/images/menu/food1.png"
@@ -89,7 +89,7 @@ export default function Menu() {
                             <p className={styles.menu_name}>リヴィエラ特製<br />モーニングセット</p>
                         </div>
 
-                        <div className={styles.menu_item}>
+                        <div className={`${styles.menu_item} anim_box fadeup`}>
                             <Image
                                 className={styles.menu_img}
                                 src="/images/menu/food2.png"
@@ -100,7 +100,7 @@ export default function Menu() {
                             <p className={styles.menu_name}>自家製<br />ベーグルサンド</p>
                         </div>
 
-                        <div className={styles.menu_item}>
+                        <div className={`${styles.menu_item} anim_box fadeup`}>
                             <Image
                                 className={styles.menu_img}
                                 src="/images/menu/food3.png"
@@ -111,7 +111,7 @@ export default function Menu() {
                             <p className={styles.menu_name}>オーガニック<br />サラダボウル</p>
                         </div>
 
-                        <div className={styles.menu_item}>
+                        <div className={`${styles.menu_item} anim_box fadeup`}>
                             <Image
                                 className={styles.menu_img}
                                 src="/images/menu/food4.png"
@@ -122,7 +122,7 @@ export default function Menu() {
                             <p className={styles.menu_name}>リヴィエラ特製<br />フレンチトースト</p>
                         </div>
 
-                        <div className={styles.menu_item}>
+                        <div className={`${styles.menu_item} anim_box fadeup`}>
                             <Image
                                 className={styles.menu_img}
                                 src="/images/menu/food5.png"
@@ -133,7 +133,7 @@ export default function Menu() {
                             <p className={styles.menu_name}>クラシック<br />シーザーサラダ</p>
                         </div>
 
-                        <div className={styles.menu_item}>
+                        <div className={`${styles.menu_item} anim_box fadeup`}>
                             <Image
                                 className={styles.menu_img}
                                 src="/images/menu/food6.png"
@@ -144,7 +144,7 @@ export default function Menu() {
                             <p className={styles.menu_name}>本日のスープ</p>
                         </div>
 
-                        <div className={styles.menu_item}>
+                        <div className={`${styles.menu_item} anim_box fadeup`}>
                             <Image
                                 className={styles.menu_img}
                                 src="/images/menu/food7.png"
@@ -155,7 +155,7 @@ export default function Menu() {
                             <p className={styles.menu_name}>季節のパスタ</p>
                         </div>
 
-                        <div className={styles.menu_item}>
+                        <div className={`${styles.menu_item} anim_box fadeup`}>
                             <Image
                                 className={styles.menu_img}
                                 src="/images/menu/food8.png"
@@ -166,7 +166,7 @@ export default function Menu() {
                             <p className={styles.menu_name}>ハーブチキンのグリル</p>
                         </div>
 
-                        <div className={styles.menu_item}>
+                        <div className={`${styles.menu_item} anim_box fadeup`}>
                             <Image
                                 className={styles.menu_img}
                                 src="/images/menu/food9.png"
@@ -177,7 +177,7 @@ export default function Menu() {
                             <p className={styles.menu_name}>リヴィエラ特製<br />ハンバーグ</p>
                         </div>
 
-                        <div className={styles.menu_item}>
+                        <div className={`${styles.menu_item} anim_box fadeup`}>
                             <Image
                                 className={styles.menu_img}
                                 src="/images/menu/food10.png"
@@ -188,7 +188,7 @@ export default function Menu() {
                             <p className={styles.menu_name}>カフェ・リヴィエラ<br />スペシャルカレー</p>
                         </div>
 
-                        <div className={styles.menu_item}>
+                        <div className={`${styles.menu_item} anim_box fadeup`}>
                             <Image
                                 className={styles.menu_img}
                                 src="/images/menu/food11.png"
@@ -199,7 +199,7 @@ export default function Menu() {
                             <p className={styles.menu_name}>季節のデザートプレート</p>
                         </div>
 
-                        <div className={styles.menu_item}>
+                        <div className={`${styles.menu_item} anim_box fadeup`}>
                             <Image
                                 className={styles.menu_img}
                                 src="/images/menu/food12.png"
@@ -210,7 +210,7 @@ export default function Menu() {
                             <p className={styles.menu_name}>リヴィエラ特製スイーツ</p>
                         </div>
 
-                        <div className={styles.menu_item}>
+                        <div className={`${styles.menu_item} anim_box fadeup`}>
                             <Image
                                 className={styles.menu_img}
                                 src="/images/menu/food13.png"
@@ -221,7 +221,7 @@ export default function Menu() {
                             <p className={styles.menu_name}>バターチキンカレー</p>
                         </div>
 
-                        <div className={styles.menu_item}>
+                        <div className={`${styles.menu_item} anim_box fadeup`}>
                             <Image
                                 className={styles.menu_img}
                                 src="/images/menu/food14.png"
@@ -232,7 +232,7 @@ export default function Menu() {
                             <p className={styles.menu_name}>自家製ミートパイ</p>
                         </div>
 
-                        <div className={styles.menu_item}>
+                        <div className={`${styles.menu_item} anim_box fadeup`}>
                             <Image
                                 className={styles.menu_img}
                                 src="/images/menu/food15.png"

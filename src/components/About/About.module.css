@@ -1,19 +1,41 @@
 .about {
     position: relative;
+    margin-bottom: 100px;
     padding: 0 15px;
 }
 
 .container {
-    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
 }
 
 .content p {
     margin-bottom: 20px;
 }
 
+/* スライドアニメーション */
 .video_slide {
+    width: 366px;
+    overflow: hidden;
+    position: relative;
+    left: -15px;
+}
+
+.video_slide_wrapper {
     display: flex;
     gap: 10px;
+    animation: slide 18s linear infinite;
+    width: fit-content;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-165px * 3 - 10px * 3));
+    }
 }
 
 .slide_movie {
@@ -21,4 +43,5 @@
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
+    flex-shrink: 0;
 }
