@@ -15,7 +15,7 @@
 
 
 /* ------------------
-SP 767px~375px
+SP 767px~431px
 ------------------ */
 @media screen and (max-width: 767px) {
     .mobile_container {
@@ -24,5 +24,14 @@ SP 767px~375px
         left: 50%;
         transform: translateX(-50%);
         margin-right: 0;
+    }
+}
+
+/* ------------------
+SP 430px~375px
+------------------ */
+@media screen and (max-width: 430px) {
+    .mobile_container {
+        width: 100%;
     }
 }
